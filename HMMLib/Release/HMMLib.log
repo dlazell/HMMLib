@@ -1,0 +1,17 @@
+﻿Build started 11/8/2014 6:55:57 PM.
+     1>Project "C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\HMMLib\HMMLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt HMMLib.cpp
+         HMMLib.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\Release\HMMLib.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HMMLib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\Release\HMMLib.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\Release\HMMLib.lib" /MACHINE:X86 Release\HMMLib.obj
+         Generating code
+         Finished generating code
+         HMMLib.vcxproj -> C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\Release\HMMLib.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\Release\HMMLib.exe;#1" /manifest Release\HMMLib.exe.intermediate.manifest
+     1>Done Building Project "C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\HMMLib\HMMLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75

@@ -1,0 +1,23 @@
+﻿Build started 11/8/2014 6:44:37 PM.
+     1>Project "C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\HMMLib\HMMLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt HMMLib.cpp
+         HMMLib.cpp
+     1>c:\users\dave\documents\visual studio 2013\projects\hmmlib\hmmlib\hmmlib\hmm.hpp(545): error C2065: 'INFINITY' : undeclared identifier
+                 c:\users\dave\documents\visual studio 2013\projects\hmmlib\hmmlib\hmmlib\hmm.hpp(503) : while compiling class template member function 'double hmmlib::HMM<float_type>::viterbi(const sequence &,sequence &)'
+                 with
+                 [
+                     float_type=double
+                 ]
+                 c:\users\dave\documents\visual studio 2013\projects\hmmlib\hmmlib\hmmlib.cpp(34) : see reference to class template instantiation 'hmmlib::HMM<float_type>' being compiled
+                 with
+                 [
+                     float_type=double
+                 ]
+     1>c:\users\dave\documents\visual studio 2013\projects\hmmlib\hmmlib\hmmlib\hmm.hpp(563): error C2065: 'INFINITY' : undeclared identifier
+     1>c:\users\dave\documents\visual studio 2013\projects\hmmlib\hmmlib\hmmlib\hmm.hpp(575): error C2065: 'INFINITY' : undeclared identifier
+     1>Done Building Project "C:\Users\Dave\Documents\Visual Studio 2013\Projects\HMMLib\HMMLib\HMMLib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.58
